@@ -3,9 +3,9 @@
 let arrUsers = ['Amadeo', 'Ezequiel', "Elisa", "Nacho", "David", "Lika", "Rocio"]
 
 /** */
-// for (let i = 0; i < arrUsers.length; i++) {
-//   console.log(arrUsers[i])
-// }
+for (let i = 0; i < arrUsers.length; i++) {
+  console.log(arrUsers[i])
+}
 
 function addUser(arrList) {
 
