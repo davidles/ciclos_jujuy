@@ -41,14 +41,14 @@ while (index < arrUsers.length) {
 
 // Do While
 
-// // console.log(arrUsers[0])
+// console.log(arrUsers[0])
 
-// let indexDo = 5
-// do {
-//   console.log("Entre")
-//   // console.log(arrUsers[indexDo]);
-//   indexDo++;
-// } while (indexDo < arrUsers.length);
+let indexDo = 5
+do {
+  console.log("Entre")
+  // console.log(arrUsers[indexDo]);
+  indexDo++;
+} while (indexDo < arrUsers.length);
 
 
 
@@ -67,19 +67,19 @@ while (index < arrUsers.length) {
 
 
 /***** Browser *****/
-// let num;
-// let respuesta = 's';
+let num;
+let respuesta = 's';
 
-// while (respuesta.toLowerCase() === 's') {
-//   // Solicitar al usuario un número
-//   num = parseInt(prompt("Ingrese un número:"));
+while (respuesta.toLowerCase() === 's') {
+  // Solicitar al usuario un número
+  num = parseInt(prompt("Ingrese un número:"));
 
-//   // Imprimir el cuadrado del número ingresado
-//   console.log("El cuadrado del número es:", num * 2);
+  // Imprimir el cuadrado del número ingresado
+  console.log("El cuadrado del número es:", num * 2);
 
-//   // Preguntar al usuario si desea continuar
-//   respuesta = prompt("Desea ingresar otro número? (s/n)");
-// }
+  // Preguntar al usuario si desea continuar
+  respuesta = prompt("Desea ingresar otro número? (s/n)");
+}
 
 // let intentos = 1;
 // let user;
