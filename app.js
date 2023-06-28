@@ -86,17 +86,17 @@ while (respuesta.toLowerCase() === 's') {
 // let pass;
 
 
-// do {
-//   user = prompt("Ingrese nombre de usuario:");
-//   pass = prompt("Ingrese contraseña:");
+do {
+  user = prompt("Ingrese nombre de usuario:");
+  pass = prompt("Ingrese contraseña:");
 
-//   if (user === "pepe" && pass === "1234") {
-//     console.log("Bienvenido Pepe");
-//   } else {
-//     intentos++
-//     console.log("sus credenciales son incorrectas, intente nuevamente");
-//   }
+  if (user === "pepe" && pass === "1234") {
+    console.log("Bienvenido Pepe");
+  } else {
+    intentos++
+    console.log("sus credenciales son incorrectas, intente nuevamente");
+  }
 
 
 
-// } while ((user !== "pepe" || pass !== "1234") && intentos <= 3);
+} while ((user !== "pepe" || pass !== "1234") && intentos <= 3);
