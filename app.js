@@ -80,7 +80,7 @@ while (respuesta.toLowerCase() === 's') {
   // Preguntar al usuario si desea continuar
   respuesta = prompt("Desea ingresar otro número? (s/n)");
 }
-
+//martearena rompe proyectos
 // let intentos = 1;
 // let user;
 // let pass;
