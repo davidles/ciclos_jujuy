@@ -27,13 +27,13 @@ console.log(newUserList)
 // While
 let index = 0;
 
-// while (index < arrUsers.length) {
-//   console.log("Bienvenidxs ", arrUsers[index]);
+while (index < arrUsers.length) {
+  console.log("Bienvenidxs ", arrUsers[index]);
 
-//   /** Linea de code, que eventualmente modifique el valor de la condicion - False - */
-//   index++;
+  /** Linea de code, que eventualmente modifique el valor de la condicion - False - */
+  index++;
 
-// }
+}
 
 
 
